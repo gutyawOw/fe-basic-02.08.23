@@ -1,1 +1,3 @@
-# fe-basic-02.08.23
+# Front End Basic course
+
+Strart 02.08.23
