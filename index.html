@@ -5,11 +5,109 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Lesson template</title>
+    <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
     <header></header>
-    <main></main>
+    <main>
+        <section>
+            <h1>Списки Селекторов</h1>
+            <p>
+                по названию элемента, например section{padding-top и значение}
+            </p>
+            <p>
+                по классу - когда нужно выбрать стиль для одного или нескольких элементов, например .description {color}
+            </p>
+            <p>
+                по id -уникальное имя элемента для которого используются стили и тд. например #имя индентификатора
+                {описание стиля}
+            </p>
+            <p>
+                по нескольким классам - для любого элемента одновременно можно добавить несколько символов, например
+                -.class1.class2 { описание стиля }
+            </p>
+            <p>
+                по атрибутам - устанавливает стиль для элемента, если указан спецефический атрибут, например [атрибут]
+                { описание правил стиля }
+            </p>
+            <p>
+                по значению атрибута - Устанавливает стиль элемента, если задан специфический атрибут, значение в этом
+                случае не важно, напрмер [атрибут] { описание правил стиля }
+            </p>
+            <p>
+                начало название по атрибуту - устанавливает стиль элемента в том случае, если задано определенное
+                значение специфического атрибута, напрмер [атрибут="значення"] { описание правил стиля }
+            </p>
+            <p>
+                по окончанию атрибута - устанавливает стиль элемента в том случае, если значение атрибута начинается с
+                указанного текста, например [атрибут^="значення"] { описание правил стиля }
+            </p>
+            <p>
+                в любом месте атрибута - Возможны варианты, когда стиль применим к тегу определенным атрибутом, когда
+                частью значения является некоторый текст. При этом точно не известно, в каком месте значение включен
+                этот текст в начале, середине или конце, например [атрибут*="значение"] { описание правил стиля }
+            </p>
+            <p>
+                вложеные селекторы - При создании веб-страницы часто приходится вкладывать одни элементы внутрь других.
+                Чтобы стили этих элементов использовались корректно, помогут вложенные селекторы, например E F { Опис
+                правил стилю }
+            </p>
+            <h2>Lorem ipsum dolor sit.</h2>
+            <p class="description">
+                Lorem ipsum dolor sit amet.
+            </p>
+            <p id="someId">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <p>
+                <b>
+                    <a href="https://google.com/">google</a>
+                </b>
+            </p>
+            <p>
+                <a href="http://facebook.com/">facebook</a>
+            </p>
+            <p>
+                <b>
+                    <a href="http://instagram.com/">instagram</a>
+                </b>
+            </p>
+
+            <ul>
+                <li class="item item1">
+                    <b> <a href="" class="link">lorem 1</a> </b>
+                </li>
+                <li class="item item2"><a href="" class="link">lorem 2</a></li>
+                <li class="item item3"><a href="" class="link">lorem 3</a></li>
+                <li class="item item4"><a href="" class="link">lorem 4</a></li>
+                <li class="item item5"><a href="" class="link">lorem 5</a></li>
+            </ul>
+            <p data-foo="some text">1</p>
+            <div>
+                <a href="https://www.youtube.com/">youtube</a>
+            </div>
+            <h3>
+                Attribute substring matching selectors
+            </h3>
+            <ul>
+                <li class="a">Item 1</li>
+                <li class="ab">Item 2</li>
+                <li class="bca">Item 3</li>
+                <li class="bcabc">Item 4</li>
+            </ul>
+            <div>
+                <b>something here</b>
+            </div>
+            <h4>last</h4>
+            <ul>
+                <li class="v">Item 1</li>
+                <li class="V">Item 2</li>
+                <li class="Vb">Item 3</li>
+            </ul>
+        </section>
+
+    </main>
     <footer></footer>
 </body>
 

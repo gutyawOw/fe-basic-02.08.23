@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+h1 {
+  color: red;
+}
+h2 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+h2 {
+  color: blue;
+}
+.description {
+  color: brown;
+}
+#someId {
+  color: darkblue;
+}
+a[href] {
+  color: maroon;
+}
+a[href*="facebook"] {
+  color: darkorchid;
+}
+/* .item {
+  border-bottom: 2px solid;
+} */
+.item.item1 {
+  border-bottom-color: saddlebrown;
+}
+.item.item2 {
+  color: darkgoldenrod;
+}
+.item.item5 {
+  border-bottom: none;
+}
+.item .link {
+  color: darkgoldenrod;
+}
+.item > .link {
+  font-size: 2rem;
+}
+.item + .item {
+  border-top: 1px solid;
+}
+item + .item {
+  border-top: 2px solid;
+}
+[href^="http"] {
+  color: darkturquoise;
+}
+p::before {
+  content: attr(data-foo);
+  color: green;
+}
+[attr] {
+  color: turquoise;
+}
+li[class^="a"] {
+  color: slategrey;
+}
+li[class$="a"] {
+  color: navajowhite;
+}
+li[class*="a"] {
+  color: cyan;
+}
+p b {
+  color: gold;
+}
+div b {
+  color: orangered;
+}
+li[class^="v" i] {
+  color: mediumblue;
+}
