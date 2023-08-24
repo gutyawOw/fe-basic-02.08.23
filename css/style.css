@@ -5,12 +5,11 @@
 }
 .wrapper {
   background-color: #e6e6e6;
-  height: 200px;
+  margin: 50px;
 }
-/* .wrapper1 {
-  background-color: #e6e6e6;
-  height: 200px;
-} */
+.container {
+  max-width: 100%;
+}
 .card {
   width: 200px;
   height: 200px;
@@ -27,18 +26,7 @@
 .float-right {
   float: right;
 }
-.card1 {
-  margin-top: 130px;
-  clear: both;
-  width: 200px;
-  height: 200px;
-  background-color: #fc8f8f;
-  color: #ffffff;
-  text-align: center;
-  font-size: 64px;
-  font-weight: 700;
-  line-height: 200px;
-}
+
 .ml {
   margin-left: 1rem;
 }
@@ -49,38 +37,11 @@
   flex-direction: row-reverse;
 }
 .card.small {
-  margin-top: 130px;
   width: 100px;
   height: 100px;
-  background-color: #fc8f8f;
-  color: #ffffff;
-  text-align: center;
   font-size: 36px;
-  font-weight: 700;
   line-height: 100px;
 }
-
-.card2 {
-  margin-top: 120px;
+.clearfix {
   clear: both;
-  width: 200px;
-  height: 200px;
-  background-color: #fc8f8f;
-  color: #ffffff;
-  text-align: center;
-  font-size: 64px;
-  font-weight: 700;
-  line-height: 200px;
 }
-/* .card3 {
-  margin-top: 120px;
-  clear: both;
-  width: 200px;
-  height: 200px;
-  background-color: #fc8f8f;
-  color: #ffffff;
-  text-align: center;
-  font-size: 64px;
-  font-weight: 700;
-  line-height: 200px;
-} */
