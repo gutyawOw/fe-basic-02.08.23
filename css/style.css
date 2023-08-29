@@ -10,20 +10,30 @@ a {
 html {
   font-family: "Roboto", sans-serif;
 }
-.container,
-.container1 {
+.table-container {
   width: 100%;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding-left: 1rem;
   padding-right: 1rem;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-around;
-  border: 1px solid #000;
 }
+.container {
+  display: flex;
+  margin: auto;
+}
+.container1 {
+  display: flex;
+  margin: auto;
+}
+/* .container1 {
+  width: 100%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+} */
 
 table {
   border-collapse: collapse;
