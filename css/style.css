@@ -10,43 +10,43 @@ a {
 html {
   font-family: "Roboto", sans-serif;
 }
-/* .container {
+.container,
+.container1 {
   width: 100%;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding-left: 1rem;
   padding-right: 1rem;
-} */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid #000;
+}
 
-.card {
-  width: 300px;
-  padding: 1rem;
-  border-radius: 1rem;
-  box-shadow: 30px 30px 30px 30px rgba(50, 50, 100, 0.25);
-  font-family: pacifico;
-  font-size: 18px;
-  line-height: 1.7;
-  font-weight: 400;
-  color: #909090;
-  margin: auto;
+table {
+  border-collapse: collapse;
+  border: 2px solid;
+  font-size: 0.8rem;
+}
+
+td,
+th {
+  border: 1px solid;
+  padding: 10px 20px;
+}
+
+td {
   text-align: center;
 }
-.card img {
-  width: 300px;
-  max-width: 100%;
-  border-radius: 0.5rem;
+
+caption {
+  padding: 10px;
 }
-.card h1 {
-  padding-bottom: 1rem;
+.bg-yellow {
+  background-color: yellow;
 }
-.card h1,
-h2 {
-  color: #303030;
-  font-weight: 700;
-}
-.card1 {
-  border-top: 1px solid #909090;
-  text-align: right;
-  color: blue;
+.sect h1 {
+  text-align: center;
 }
