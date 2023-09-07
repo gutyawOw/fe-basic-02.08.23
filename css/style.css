@@ -1,5 +1,7 @@
 :root {
   --basic-color: #d52047;
+  --container-width: 1110px;
+  --basic-space: 1rem;
 }
 * {
   margin: 0;
@@ -22,47 +24,7 @@ html {
 }
 .container {
   width: 100%;
-  max-width: 646px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: var(--basic-space);
-  padding-right: var(--basic-space);
-  position: relative;
-}
-
-.container1 {
-  width: 100%;
-  max-width: 1920px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: var(--basic-space);
-  padding-right: var(--basic-space);
-  position: relative;
-}
-
-.container2 {
-  width: 100%;
   max-width: calc(var(--container-width) + var(--basic-space) * 2);
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: var(--basic-space);
-  padding-right: var(--basic-space);
-  position: relative;
-}
-
-.container3 {
-  width: 100%;
-  max-width: 1920px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: var(--basic-space);
-  padding-right: var(--basic-space);
-  position: relative;
-}
-
-.container4 {
-  width: 100%;
-  max-width: 1920px;
   margin-left: auto;
   margin-right: auto;
   padding-left: var(--basic-space);
@@ -86,81 +48,90 @@ html {
   margin-bottom: 151px;
 }
 .section-title {
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  max-width: 541px;
-  padding-bottom: 60px;
+  margin-bottom: 60px;
 }
-.text {
+.mw-540 {
   max-width: 540px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 65px;
 }
-.button {
-  background: #34547a;
-  color: #ffffff;
-  max-width: 225px;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-}
-.section-title1 {
-  /* padding-top: 112px;
-  padding-bottom: 50px; */
-  margin: auto;
-  text-align: center;
-}
-.text1 {
-  margin: auto;
-  text-align: center;
-  max-width: 540px;
-  /* padding-bottom: 100px; */
-}
-.second-section {
-  background: #34547a;
+.mw-141 {
+  max-width: 141px;
 }
 
-.images {
-  display: inline-block;
-  /* float: left; */
-  /* padding-top: 100px;
-  padding-bottom: 100px;
-  padding-left: 409px;
-  margin-right: 45px; */
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.text-center {
+  text-align: center;
+}
+.text {
+  margin-bottom: 65px;
+}
+.text1 {
+  margin-bottom: 100px;
+}
+.button {
+  max-width: 225px;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 141px;
+}
+.section-title1 {
+  margin-top: 112px;
+  margin-bottom: 50px;
+}
+.section-title2 {
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+.bg-blue {
+  background: #34547a;
+  color: #ffffff;
+}
+
+.card {
+  display: inline-flex;
+  margin-right: 20px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  align-items: center;
+}
+.img {
+  float: left;
+}
+.title {
+  margin-left: 20px;
 }
 .description {
   color: #ffffff;
-  float: right;
   display: block;
+  margin-left: 20px;
 }
 .third-section {
   background: #eeeff1;
-  /* padding-top: 100px; */
   margin: auto;
   text-align: center;
 }
 .text2 {
-  /* padding-top: 50px;
-  padding-bottom: 57px; */
-  margin: auto;
-  text-align: center;
-  max-width: 540px;
+  margin-bottom: 57px;
 }
+
 .video {
-  /* max-width: 1110px;
-  max-height: 600px; */
-  /* padding-bottom: 100px; */
   border: none;
+  width: 100%;
+  aspect-ratio: 16/9;
+  margin-bottom: 100px;
 }
 
 .footer {
-  background: #34547a;
-  color: #ffffff;
-  max-width: 1920px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .section-title3 {
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
 .words {
+  margin-bottom: 50px;
 }
