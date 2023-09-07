@@ -75,6 +75,7 @@ html {
   width: 100%;
   align-items: center;
   margin-bottom: 141px;
+  height: 65px;
 }
 .section-title1 {
   margin-top: 112px;
@@ -112,6 +113,7 @@ html {
   background: #eeeff1;
   margin: auto;
   text-align: center;
+  padding-top: 20px;
 }
 .text2 {
   margin-bottom: 57px;
