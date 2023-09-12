@@ -1,3 +1,8 @@
+:root {
+  --basic-color: #d52047;
+  --container-width: 340px;
+  --basic-space: 1rem;
+}
 * {
   margin: 0;
   padding: 0;
@@ -12,9 +17,60 @@ html {
 }
 .container {
   width: 100%;
-  max-width: calc(1110px+2rem);
+  max-width: calc(var(--container-width) + var(--basic-space) * 2);
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: var(--basic-space);
+  padding-right: var(--basic-space);
+  position: relative;
+}
+.menu {
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  float: left;
+  text-align: center;
+  background: rgb(61, 61, 61);
+  position: relative;
+  padding-top: 12px;
+}
+.menu li ul {
+  list-style: none;
+  display: none;
+  position: absolute;
+}
+.menu li ul li {
+  float: none;
+  height: 30px;
+  margin: 0;
+  width: 150px;
+  text-align: center;
+  background: lightblue;
+}
+.menu li a {
+  display: block;
+  width: 150px;
+  height: 30px;
+  color: #ffffff;
+}
+.menu li:hover ul {
+  display: block;
+}
+.menu li:hover {
+  background: lightblue;
+}
+.menu li ul li ul {
+  left: 150px;
+  top: 0;
+}
+.menu li ul li ul li {
+  display: none;
+}
+.menu li ul li:hover ul li {
+  display: block;
+}
+.parent:hover > .child {
+  display: block;
 }
