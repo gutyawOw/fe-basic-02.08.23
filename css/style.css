@@ -26,34 +26,38 @@ html {
 }
 /*  */
 .menu {
-  position: relative;
+  position: absolute;
   list-style: none;
   text-align: center;
   background: rgb(61, 61, 61);
   color: rgb(204, 199, 199);
-  position: relative;
   padding-top: 12px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 50%;
 }
-.child {
-  list-style: none;
-  position: relative;
-  text-align: center;
-  align-items: center;
-  padding-top: 12px;
-  background-color: rgb(103, 154, 167);
-}
-.sub-menu {
-  list-style: none;
-  position: relative;
-  text-align: center;
-  align-items: center;
-  padding-top: 12px;
-  background-color: rgb(103, 154, 167);
-}
-.parent:hover > .child .sub-menu {
+.parent:hover > .child {
   display: block;
 }
+
+.child {
+  display: none;
+  top: 100px;
+  list-style: none;
+  position: relative;
+  text-align: center;
+  padding-top: 12px;
+  background-color: rgb(103, 154, 167);
+  left: 80px;
+}
+/* .sub-menu{
+  display: block;
+  left: 80px;
+  list-style: none;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  padding-top: 12px;
+  background-color: rgb(103, 154, 167);
+} */
