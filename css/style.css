@@ -13,7 +13,7 @@ a {
   text-decoration: none;
 }
 html {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .container {
   width: 100%;
@@ -24,9 +24,8 @@ html {
   padding-right: var(--basic-space);
   position: relative;
 }
-/*  */
+
 .menu {
-  position: absolute;
   list-style: none;
   text-align: center;
   background: rgb(61, 61, 61);
@@ -37,17 +36,45 @@ html {
   align-items: center;
   width: 50%;
 }
-.parent:hover > .child {
-  display: block;
+
+.parent {
+  position: relative;
+}
+
+.parent::after {
+  content: '+';
+  float: right;
+}
+
+li {
+  padding: 0.5rem 1rem;
+  white-space: nowrap;
+  min-width: 200px;
 }
 
 .child {
   display: none;
-  top: 50px;
   list-style: none;
-  position: relative;
-  text-align: center;
+  position: absolute;
   padding-top: 12px;
   background-color: rgb(103, 154, 167);
-  /* left: 80px; */
+  text-align: left;
+}
+
+li:hover {
+  background-color: rgb(103, 154, 250);
+}
+
+.parent:hover > .child {
+  display: block;
+}
+
+.menu .child {
+  top: 100%;
+  left: 0;
+}
+
+.child .child {
+  left: 100%;
+  top: 0;
 }
