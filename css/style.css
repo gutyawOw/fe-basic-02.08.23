@@ -43,21 +43,11 @@ html {
 
 .child {
   display: none;
-  top: 100px;
+  top: 50px;
   list-style: none;
   position: relative;
   text-align: center;
   padding-top: 12px;
   background-color: rgb(103, 154, 167);
-  left: 80px;
+  /* left: 80px; */
 }
-/* .sub-menu{
-  display: block;
-  left: 80px;
-  list-style: none;
-  position: relative;
-  text-align: center;
-  align-items: center;
-  padding-top: 12px;
-  background-color: rgb(103, 154, 167);
-} */
