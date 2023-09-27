@@ -17,3 +17,9 @@
   font-weight: 700;
   font-style: normal;
 }
+@font-face {
+  font-family: "Vetrino";
+  src: local("Vetrino"), url("./vetrino.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}

@@ -1,3 +1,8 @@
+:root {
+  --basic-color: #d52047;
+  --container-width: 1110px;
+  --basic-space: 1rem;
+}
 * {
   margin: 0;
   padding: 0;
@@ -9,12 +14,141 @@ a {
 }
 html {
   font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 .container {
   width: 100%;
-  max-width: calc(1110px+2rem);
+  max-width: calc(var(--container-width) + var(--basic-space) * 2);
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: var(--basic-space);
+  padding-right: var(--basic-space);
+  position: relative;
+}
+
+.mw-540 {
+  max-width: 540px;
+}
+.vertino {
+  font-family: Vetrino, sans-serif;
+  font-size: 36px;
+  line-height: 39px;
+}
+.vertino1 {
+  font-family: Vetrino, sans-serif;
+  font-size: 62px;
+  font-weight: 400;
+  line-height: 67px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.header {
+  display: flex;
+  min-height: 80px;
+  align-items: center;
+  background: #81a36b;
+}
+.butt {
+  background: #81a36b;
+  min-width: 190px;
+  min-height: 60px;
+  border: none;
+}
+.butto {
+  min-width: 190px;
+  min-height: 60px;
+  border: 1px solid;
+  border-color: #81a36b;
+  margin-left: 65px;
+}
+
+.nav-link {
+  margin-left: 92px;
+}
+.text {
+  display: grid;
+  align-items: center;
+}
+.title {
+  max-width: 483px;
+  max-height: 67px;
+}
+.description {
+  max-height: 87px;
+}
+.image {
+  float: right;
+  margin-left: 20px;
+}
+.first {
+  display: flex;
+}
+.title1 {
+  text-align: center;
+  min-width: 108px;
+  padding-top: 120px;
+  padding-bottom: 60px;
+}
+.description1 {
+  max-height: 86.6px;
+  display: flex;
+  text-align: center;
+  padding-bottom: 120px;
+  margin: auto;
+}
+.section1 {
+  background: #81a36b;
+}
+.card {
+  display: inline-flex;
+  align-items: center;
+  max-width: 132px;
+  max-height: 122px;
+}
+.wrapper {
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+}
+.title2 {
+  max-width: 403px;
+  max-height: 38px;
+  margin-left: 98px;
+}
+
+.img-left {
+  max-width: 539px;
+  max-height: 560px;
+  margin-top: 120px;
+}
+
+.text-card {
+  display: grid;
+  float: right;
+}
+.description3 {
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 60px;
+}
+.title3 {
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 80px;
+}
+.card1 {
+  display: flex;
+  position: relative;
+  margin-bottom: 120px;
+}
+.footer {
+  background: #81a36b;
+}
+.links {
+  display: flex;
+  justify-content: center;
 }
