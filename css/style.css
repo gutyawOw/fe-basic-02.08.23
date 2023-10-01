@@ -46,6 +46,9 @@ html {
   letter-spacing: 0em;
   text-align: left;
 }
+.mt-60 {
+  margin-top: 60px;
+}
 .header {
   display: flex;
   min-height: 80px;
@@ -162,9 +165,29 @@ html {
 }
 .footer {
   background: #81a36b;
+}
+.links1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.mr-20 {
+  margin-bottom: 20px;
+}
+.mr-r20 {
+  margin-right: 20px;
+}
+.title4 {
+  margin-bottom: 40px;
+}
+.year {
+  margin-bottom: 60px;
+  margin-top: 211px;
   text-align: center;
 }
-.links {
-  display: inline-block;
-  margin-top: 60px;
+.title6 {
+  margin-bottom: 40px;
+}
+.img {
+  text-align: center;
 }
